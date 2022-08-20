@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./component/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/all.min.css">
+    <link rel="stylesheet" href="./styles/font.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>My portofilo</title>
+</head>
+
+<body>
+    <video src="./Ð_Ð²Ð¾Ð¸Ñ_Ð½Ñ_Ð¹ - 31427.mp4" muted loop autoplay class="video"></video>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <h1 class="sd">Abdulaziz&nbsp;Komiljonov</h1>
+                <ul class="header__list">
+                    <li class="header__item"><a href="./index.html" class="header__link active">Home</a></li>
+                    <li class="header__item"><a href="./About.html" class="header__link">About</a></li>
+                    <li class="header__item"><a href="./Resume.html" class="header__link">Resume</a></li>
+                    <li class="header__item"><a href="./Portfolio.html" class="header__link">Portfolio</a></li>
+                    <li class="header__item"><a href="./Contact.html" class="header__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="contact" class="contact section-show">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact</h2>
+                <p>Contact Me</p>
+            </div>
+            <div class="row mt-2">
+                <div class="col-md-6 d-flex align-items-stretch">
+                    <div class="info-box"> <i class="far fa-map-marker-alt bx" ></i>
+                        <h3>My Address</h3>
+                        <p>Tashkent Nazarbek branch street 17 house</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+                    <div class="info-box"> <i class="fal fa-share-alt bx"></i>
+                        <h3>Social Profiles</h3>
+                        <div class="social-links"> <a href="https://www.instagram.com/abdulaziz777360/"
+                                class="instagram"><i class="fab fa-instagram"></i></a><a href="https://t.me/abu_hacer" class="telegram"><i class="fab fa-telegram-plane"></i></a><a href="https://www.youtube.com/channel/UCnjnInTHPh10TseXWHEywMg" class="youtube"><i class="fab fa-youtube"></i></a><a href="tel: +998 88 036 37 17" class="telefon"><i class="fal fa-phone-alt"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 d-flex align-items-stretch">
+                    <div class="info-box"> <i class="fal fa-envelope bx"></i>
+                        <h3>Email Me</h3>
+                        <p>komiljonov610@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 d-flex align-items-stretch">
+                    <div class="info-box"> <i class="fal fa-phone-volume bx"></i>
+                        <h3>Call Me</h3>
+                        <p>+998 88 036 37 17</p>
+                    </div>
+                </div>
+            </div>
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+                <div class="row">
+                    <div class="col-md-6 form-group"> <input type="text" name="name" class="form-control" id="name"
+                            placeholder="Your Name" required=""></div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0"> <input type="email" class="form-control" name="email"
+                            id="email" placeholder="Your Email" required=""></div>
+                </div>
+                <div class="form-group mt-3"> <input type="text" class="form-control" name="subject" id="subject"
+                        placeholder="Subject" required=""></div>
+                <div class="form-group mt-3"><textarea class="form-control" name="message" rows="5"
+                        placeholder="Message" required=""></textarea></div>
+                <div class="my-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+        </div>
+    </section>
+
+
+
+    <script src="./script.js"></script>
+    <script src="./component/bootstrap.min.js"></script>
+    <script src="./component/popper.min.js"></script>
+</body>
+
+</html>

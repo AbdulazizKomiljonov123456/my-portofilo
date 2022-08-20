@@ -1,0 +1,6 @@
+
+@media (max-width:1142px) {
+    .header__list{
+      display: none;
+    }
+  }
